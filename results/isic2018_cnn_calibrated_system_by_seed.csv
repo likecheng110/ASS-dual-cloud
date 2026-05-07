@@ -1,0 +1,16 @@
+Seed,Dataset,ImageSize,PoolType,ModelVariant,TrainSamples,TestSamples,SecureEvalSamples,Method,Acc,TimeMs,CommMB,TotalCommMB,E_m,k_m,ComparisonScope
+42,ISIC2018,112,max,enhanced,408,104,104,2Cloud-D,0.7211538461538461,2.7678223076923074,1.3403396606445312,139.39532470703125,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+42,ISIC2018,112,max,enhanced,408,104,104,Delphi,0.7211538461538461,8786.616261538462,859.0903396606445,89345.39532470703,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+42,ISIC2018,112,max,enhanced,408,104,104,Sonic,0.7211538461538461,156.96506153846155,26.532889131456614,2759.420469671488,0,2,same_cnn_prediction_behavior_formula_based_system_projection
+42,ISIC2018,112,max,enhanced,408,104,104,Cheetah,0.7211538461538461,4.395953076923077,155.47607421875,16169.51171875,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+42,ISIC2018,112,max,enhanced,408,104,104,ASS (Ours),0.7211538461538461,3.2562615384615383,8.855003356933594,920.9203491210938,0,2,same_cnn_prediction_behavior_formula_based_system_projection
+52,ISIC2018,112,max,enhanced,408,104,104,2Cloud-D,0.8557692307692307,2.499383317307692,1.3403396606445312,139.39532470703125,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+52,ISIC2018,112,max,enhanced,408,104,104,Delphi,0.8557692307692307,8786.300450961538,859.0903396606445,89345.39532470703,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+52,ISIC2018,112,max,enhanced,408,104,104,Sonic,0.8557692307692307,156.64925096153848,26.532889131456614,2759.420469671488,0,2,same_cnn_prediction_behavior_formula_based_system_projection
+52,ISIC2018,112,max,enhanced,408,104,104,Cheetah,0.8557692307692307,3.9696087980769232,155.47607421875,16169.51171875,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+52,ISIC2018,112,max,enhanced,408,104,104,ASS (Ours),0.8557692307692307,2.9404509615384615,8.855003356933594,920.9203491210938,0,2,same_cnn_prediction_behavior_formula_based_system_projection
+62,ISIC2018,112,max,enhanced,408,104,104,2Cloud-D,0.7692307692307693,2.4871645673076923,1.3403396606445312,139.39532470703125,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+62,ISIC2018,112,max,enhanced,408,104,104,Delphi,0.7692307692307693,8786.28607596154,859.0903396606445,89345.39532470703,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+62,ISIC2018,112,max,enhanced,408,104,104,Sonic,0.7692307692307693,156.63487596153848,26.532889131456614,2759.420469671488,0,2,same_cnn_prediction_behavior_formula_based_system_projection
+62,ISIC2018,112,max,enhanced,408,104,104,Cheetah,0.7692307692307693,3.9502025480769234,155.47607421875,16169.51171875,1,1,same_cnn_prediction_behavior_formula_based_system_projection
+62,ISIC2018,112,max,enhanced,408,104,104,ASS (Ours),0.7692307692307693,2.9260759615384617,8.855003356933594,920.9203491210938,0,2,same_cnn_prediction_behavior_formula_based_system_projection

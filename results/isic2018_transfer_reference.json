@@ -1,0 +1,125 @@
+{
+  "rows": [
+    {
+      "seed": 42,
+      "model": "VGG16_ImageNet_transfer_reference",
+      "dataset_size": 512,
+      "train_samples": 408,
+      "test_samples": 104,
+      "train_class_0": 204,
+      "train_class_1": 204,
+      "test_class_0": 52,
+      "test_class_1": 52,
+      "image_size": 224,
+      "epochs": 15,
+      "best_epoch": 12,
+      "accuracy": 0.7980769230769231,
+      "balanced_accuracy": 0.7980769230769231,
+      "f1": 0.8292682926829268,
+      "auc": 0.9197485207100591,
+      "confusion": [
+        [
+          32,
+          20
+        ],
+        [
+          1,
+          51
+        ]
+      ],
+      "prediction_counts": {
+        "0": 33,
+        "1": 71
+      },
+      "target_counts": {
+        "0": 52,
+        "1": 52
+      },
+      "scope": "plaintext_transfer_reference_not_full_secure_vgg16"
+    },
+    {
+      "seed": 52,
+      "model": "VGG16_ImageNet_transfer_reference",
+      "dataset_size": 512,
+      "train_samples": 408,
+      "test_samples": 104,
+      "train_class_0": 204,
+      "train_class_1": 204,
+      "test_class_0": 52,
+      "test_class_1": 52,
+      "image_size": 224,
+      "epochs": 15,
+      "best_epoch": 7,
+      "accuracy": 0.8269230769230769,
+      "balanced_accuracy": 0.8269230769230769,
+      "f1": 0.8448275862068966,
+      "auc": 0.8931213017751478,
+      "confusion": [
+        [
+          37,
+          15
+        ],
+        [
+          3,
+          49
+        ]
+      ],
+      "prediction_counts": {
+        "1": 64,
+        "0": 40
+      },
+      "target_counts": {
+        "0": 52,
+        "1": 52
+      },
+      "scope": "plaintext_transfer_reference_not_full_secure_vgg16"
+    },
+    {
+      "seed": 62,
+      "model": "VGG16_ImageNet_transfer_reference",
+      "dataset_size": 512,
+      "train_samples": 408,
+      "test_samples": 104,
+      "train_class_0": 204,
+      "train_class_1": 204,
+      "test_class_0": 52,
+      "test_class_1": 52,
+      "image_size": 224,
+      "epochs": 15,
+      "best_epoch": 14,
+      "accuracy": 0.7884615384615384,
+      "balanced_accuracy": 0.7884615384615385,
+      "f1": 0.8135593220338984,
+      "auc": 0.8439349112426034,
+      "confusion": [
+        [
+          34,
+          18
+        ],
+        [
+          4,
+          48
+        ]
+      ],
+      "prediction_counts": {
+        "1": 66,
+        "0": 38
+      },
+      "target_counts": {
+        "0": 52,
+        "1": 52
+      },
+      "scope": "plaintext_transfer_reference_not_full_secure_vgg16"
+    }
+  ],
+  "summary": {
+    "accuracy_mean": 0.8044871794871794,
+    "accuracy_std": 0.020016019225635864,
+    "balanced_accuracy_mean": 0.8044871794871794,
+    "balanced_accuracy_std": 0.020016019225635822,
+    "f1_mean": 0.8292184003079073,
+    "f1_std": 0.015634191793467124,
+    "auc_mean": 0.8856015779092701,
+    "auc_std": 0.03846213112121139
+  }
+}

@@ -1,0 +1,51 @@
+{
+  "status": "COMPLETED_OFFICIAL_ISIC2018_SUBSET",
+  "updated_at": "2026-05-07",
+  "mainline_role": "secure_cnn_image_workload",
+  "synthetic_results_generated": false,
+  "official_subset": {
+    "dataset": "ISIC 2018 Task 3 Training",
+    "official_data_page": "https://challenge.isic-archive.com/data/",
+    "ground_truth_zip": "https://isic-archive.s3.amazonaws.com/challenges/2018/ISIC2018_Task3_Training_GroundTruth.zip",
+    "image_url_template": "https://isic-archive.s3.amazonaws.com/images/{image_id}.jpg",
+    "sample_size": 512,
+    "seed": 42,
+    "positive_classes": [
+      "AKIEC",
+      "BCC",
+      "MEL"
+    ],
+    "negative_classes": [
+      "BKL",
+      "DF",
+      "NV",
+      "VASC"
+    ],
+    "downloaded_images": 512,
+    "label_rows": 512,
+    "positive_count": 256,
+    "negative_count": 256
+  },
+  "experiment": {
+    "model": "LightweightMedicalCNN",
+    "image_size": 112,
+    "pool_type": "max",
+    "epochs": 3,
+    "train_samples": 409,
+    "test_samples": 103,
+    "secure_eval_samples": 64,
+    "plain_acc": 0.53125,
+    "secure_acc": 0.53125,
+    "secure_time_ms_per_sample": 4.088803125,
+    "secure_comm_mb_per_sample": 3.8772201538085938,
+    "secure_total_comm_mb": 248.14208984375,
+    "secure_rounds": 88
+  },
+  "outputs": [
+    "results/isic2018_image_sota_comparison.md",
+    "results/isic2018_image_sota_comparison.csv",
+    "results/isic2018_image_sota_comparison.json",
+    "results/isic2018_official_subset_manifest.json"
+  ],
+  "chestxray14_status": "Deferred for strict official-only provenance until NIH Box metadata CSV is available locally."
+}

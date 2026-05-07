@@ -1,0 +1,52 @@
+{
+  "network_scenarios": [
+    {
+      "Scenario": "edge_lan",
+      "Description": "co-located edge/cloudlet nodes",
+      "RTTMs": 1.0,
+      "BandwidthMbps": 1000.0
+    },
+    {
+      "Scenario": "campus_cloudlet",
+      "Description": "campus or hospital cloudlet",
+      "RTTMs": 5.0,
+      "BandwidthMbps": 1000.0
+    },
+    {
+      "Scenario": "metropolitan_edge",
+      "Description": "metropolitan edge federation",
+      "RTTMs": 20.0,
+      "BandwidthMbps": 200.0
+    },
+    {
+      "Scenario": "regional_cloud",
+      "Description": "regional public cloud deployment",
+      "RTTMs": 50.0,
+      "BandwidthMbps": 100.0
+    },
+    {
+      "Scenario": "cross_region_cloud",
+      "Description": "cross-region cloud collaboration",
+      "RTTMs": 100.0,
+      "BandwidthMbps": 50.0
+    },
+    {
+      "Scenario": "iot_gateway",
+      "Description": "constrained IoT gateway uplink",
+      "RTTMs": 30.0,
+      "BandwidthMbps": 20.0
+    }
+  ],
+  "deployment_projection_rows": 192,
+  "ratio_rows": 48,
+  "throughput_rows": 4,
+  "image_rows": 5,
+  "mean_j2sp_over_2cloud": 1.121242998481545,
+  "mean_3share_over_j2sp": 1.5088744613717546,
+  "mean_securenn_over_j2sp": 13.837935767542168,
+  "securenn_faster_than_j2sp_rows": 12,
+  "securenn_faster_than_j2sp_tasks": [
+    "Fashion",
+    "MNIST"
+  ]
+}

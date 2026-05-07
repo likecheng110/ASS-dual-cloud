@@ -1,0 +1,7 @@
+Method,Parties,DataSplit,ModelSplit,InteractionRounds,SinglePointDataExposure,SinglePointModelExposure,MinCollusionInput,MinCollusionModel,ImplementationScope,ComparisonRole,CommMeasurementBasis,Evidence
+ASS (Ours),2,1,1,1,0,0,2,2,share-simulator,main,analytic_estimate_with_localhost_replay,2-share data split + 2-share model split; one-round non-linear interaction simulation
+2Cloud-D (Data-only),2,1,0,1,0,1,2,1,share-simulator,main,analytic_estimate_with_localhost_replay,"Reference-style baseline: only input data are split, model remains visible on each cloud"
+3Share-DM (3-party),3,1,1,1,0,0,3,3,share-simulator,main,analytic_estimate_with_localhost_replay,3-share extension for data and model; evaluates the cost of adding one more party
+SecureNN (3PC),3,1,1,4,0,0,2,2,simulator,baseline,task_level_proxy,Three-party SecureNN-style simulator with multi-round DReLU overhead
+CKKS (HE),2,0,0,0,0,1,2,1,micro-benchmark,boundary,micro_benchmark_projection,Micro-benchmark projection for single-cloud CKKS inference
+Paillier (PHE),2,0,0,0,0,1,2,1,sampled-client-aided,boundary,sampled_execution_with_time_cap,Single-cloud partially homomorphic baseline with client-aided non-linearity

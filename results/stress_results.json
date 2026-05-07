@@ -1,0 +1,58 @@
+[
+  {
+    "Method": "ASS (Ours)",
+    "Batch": 1024,
+    "Throughput": 167678.88822189954,
+    "Time": 0.0596378,
+    "Samples": 10000
+  },
+  {
+    "Method": "SecureNN (3PC)",
+    "Batch": 1024,
+    "Throughput": 68619.83005870212,
+    "Time": null,
+    "Samples": null
+  },
+  {
+    "Method": "ASS (Ours)",
+    "Batch": 2048,
+    "Throughput": 158793.42404672338,
+    "Time": 0.0629749,
+    "Samples": 10000
+  },
+  {
+    "Method": "SecureNN (3PC)",
+    "Batch": 2048,
+    "Throughput": 103049.21002314582,
+    "Time": null,
+    "Samples": null
+  },
+  {
+    "Method": "ASS (Ours)",
+    "Batch": 4096,
+    "Throughput": 205529.5674835782,
+    "Time": 0.0486548,
+    "Samples": 10000
+  },
+  {
+    "Method": "SecureNN (3PC)",
+    "Batch": 4096,
+    "Throughput": 87514.63562631934,
+    "Time": null,
+    "Samples": null
+  },
+  {
+    "Method": "ASS (Ours)",
+    "Batch": 8192,
+    "Throughput": 174030.17335145568,
+    "Time": 0.0574613,
+    "Samples": 10000
+  },
+  {
+    "Method": "SecureNN (3PC)",
+    "Batch": 8192,
+    "Throughput": 86813.59556860679,
+    "Time": null,
+    "Samples": null
+  }
+]

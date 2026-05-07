@@ -1,0 +1,4 @@
+seed,model,dataset_size,train_samples,test_samples,train_class_0,train_class_1,test_class_0,test_class_1,image_size,epochs,best_epoch,accuracy,balanced_accuracy,f1,auc,confusion,prediction_counts,scope
+42,VGG16_ImageNet_transfer_reference,512,408,104,204,204,52,52,224,15,12,0.7980769230769231,0.7980769230769231,0.8292682926829268,0.9197485207100591,"[[32, 20], [1, 51]]","{""0"": 33, ""1"": 71}",plaintext_transfer_reference_not_full_secure_vgg16
+52,VGG16_ImageNet_transfer_reference,512,408,104,204,204,52,52,224,15,7,0.8269230769230769,0.8269230769230769,0.8448275862068966,0.8931213017751478,"[[37, 15], [3, 49]]","{""1"": 64, ""0"": 40}",plaintext_transfer_reference_not_full_secure_vgg16
+62,VGG16_ImageNet_transfer_reference,512,408,104,204,204,52,52,224,15,14,0.7884615384615384,0.7884615384615385,0.8135593220338984,0.8439349112426034,"[[34, 18], [4, 48]]","{""1"": 66, ""0"": 38}",plaintext_transfer_reference_not_full_secure_vgg16

@@ -1,0 +1,38 @@
+# IDE & system
+.trae/
+.idea/
+.vscode/
+__pycache__/
+*.pyc
+.DS_Store
+Thumbs.db
+
+# Python
+venv/
+env/
+*.egg-info/
+
+# Data, models, and local generated artifacts
+*.npy
+*.pth
+*.pt
+*.log
+*.zip
+*.gz
+*.idx
+*-idx1-ubyte
+*-idx3-ubyte
+data/*
+!data/.gitkeep
+core_code/models/
+core_code/artifacts/
+data/official_medical_images/
+results/results_raw.json
+results/model_split_necessity.csv
+results/publication_anomaly_audit.*
+results/sci_quality_gate.*
+results/isic2018_official_subset_manifest.*
+results/isic2018_image_sota_comparison.json
+
+# Temporary output
+cuda_check*.txt

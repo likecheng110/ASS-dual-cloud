@@ -1,0 +1,10 @@
+Task,Method,Samples,EstimatedOnlineCommMB,TraceEvents,LoopbackReplayMB,LoopbackElapsedMs,LoopbackThroughputMBps,AuditMode,AuditNote,SeedContext
+MNIST,2Cloud-D (Data-only),512,5.140625,4,5.140625,2.7839,1846.5551923560472,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+MNIST,ASS (Ours),512,6.21875,4,6.21875,3.1409,1979.926135820943,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+MNIST,3Share-DM (3-party),512,13.015625,4,13.015625,6.1034,2132.5203984664286,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+Medical,2Cloud-D (Data-only),114,0.085235595703125,4,0.085235595703125,0.2368,359.9476169895481,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+Medical,ASS (Ours),114,0.116546630859375,4,0.116546630859375,0.2762,421.9646301932477,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+Medical,3Share-DM (3-party),114,0.25048828125,4,0.25048828125,0.4066,616.0557827102804,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+Digits,2Cloud-D (Data-only),360,0.582275390625,4,0.582275390625,0.4047,1438.782778910304,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+Digits,ASS (Ours),360,0.81298828125,4,0.81298828125,0.6332,1283.936009554643,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
+Digits,3Share-DM (3-party),360,1.768798828125,4,1.768798828125,1.3303,1329.6240157295347,localhost-loopback,Single-machine socket replay of protocol-equivalent message sizes; not a cross-host network capture.,62
